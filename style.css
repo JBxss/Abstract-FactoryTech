@@ -4,46 +4,71 @@
 }
 
 body {
-  background-image: url(Assets/Apple-store-Chicago_1-1024x491.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  background-color: #000;
+  margin: 0;
 }
 
 h1 {
-  border: 2px solid white;
-  border-radius: 50px;
+  border: 2px solid #1f49c0;
+  color: #1f49c0;
+  border-radius: 35px;
   padding: 1rem;
-  background-color: rgb(221, 164, 90);
+  background-color: transparent;
+  box-shadow: 0 0 5px #1f49c0, 0 0 25px #1f49c0;
+}
+
+h1:hover {
+  box-shadow: 0 0 5px #1f49c0, 0 0 25px #1f49c0, 0 0 50px #1f49c0, 0 0 100px #1f49c0;
 }
 
 input {
-  border: 2px solid white;
+  border: 2px solid #c72429;
+  color: #c72429;
   border-radius: 50px;
   padding: 1rem;
-  background-color: rgb(221, 164, 90);
+  background-color: transparent;
+  box-shadow: 0 0 5px #c72429, 0 0 25px #c72429;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+input:hover {
+  box-shadow: 0 0 5px #c72429, 0 0 25px #c72429, 0 0 50px #c72429, 0 0 100px #c72429;
 }
 
 select {
-  border: 2px solid white;
-  border-radius: 50px;
+  border: 2px solid #bf309f;
+  color: #bf309f;
+  border-radius: 5px;
   padding: 1rem;
-  background-color: rgb(221, 164, 90);
+  background-color: transparent;
+  box-shadow: 0 0 5px #bf309f, 0 0 25px #bf309f;
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
 }
 
 section {
-  border: 2px solid white;
-  border-radius: 50px;
+  border: 2px solid #44c71d;
+  color: #44c71d;
+  border-radius: 25px;
   padding: 1rem;
-  background-color: rgb(221, 164, 90);
+  background-color: rgb(0, 0, 0);
   margin: 1rem;
+  box-shadow: 0 0 5px #44c71d, 0 0 25px #44c71d;
+}
+
+
+section:hover {
+  box-shadow: 0 0 5px rgba(0, 255, 0, 0.5), 0 0 25px rgba(0, 255, 0, 0.5), 0 0 50px rgba(0, 255, 0, 0.5), 0 0 100px rgba(0, 255, 0, 0.5);
 }
 
 section img {
   width: 250px;
   height: 250px;
-  border-radius: 25px;
+  border-radius: 5px;
   margin: 1rem;
 }

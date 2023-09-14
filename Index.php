@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Tech Factory</title>
+    <title>FactoryTech</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <center>
       <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
-        <h1>Fabrica y venta de computadores</h1>
+        <h1>FactoryTech</h1>
         <select name="Computadores">
           <option>Computador de Mesa</option>
           <option>Computador Portatil</option>
